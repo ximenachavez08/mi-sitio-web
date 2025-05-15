@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos de Ropa</title>
+  <style>
+    body {
+      background-color: #f9f5f0;
+      color: #5c4033;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #d8c3a5;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav {
+      background-color: #f1e3d3;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #5c4033;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .contenido {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .seccion {
+      margin-bottom: 50px;
+    }
+    .seccion h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #8b5e3c;
+    }
+    .descripcion {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 0 20px;
+    }
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <header><h1>Tipos de Ropa</h1></header>
+
+  <nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="nuestroequipo.html">Nuestro Equipo</a>
+    <a href="tiposropa.html">Tipos de Ropa</a>
+    <a href="informacion.html">Información</a>
+    <a href="bazar.html">Bazar</a>
+  </nav>
+
+  <div class="contenido">
+
+    <p>Explora nuestra línea de ropa sustentable:</p>
+
+    <!-- Superior -->
+    <div class="seccion">
+      <h2>Superior</h2>
+      <p class="descripcion">Chamarras, sudaderas, camisas, playeras</p>
+      <div class="galeria">
+        <img src="superior1.jpg" alt="Superior 1">
+        <img src="superior2.jpg" alt="Superior 2">
+        <img src="superior3.jpg" alt="Superior 3">
+      </div>
+    </div>
+
+    <!-- Inferior -->
+    <div class="seccion">
+      <h2>Inferior</h2>
+      <p class="descripcion">Pantalones, shorts, faldas</p>
+      <div class="galeria">
+        <img src="inferior1.jpg" alt="Inferior 1">
+        <img src="inferior2.jpg" alt="Inferior 2">
+        <img src="inferior3.jpg" alt="Inferior 3">
+      </div>
+    </div>
+
+    <!-- Interior -->
+    <div class="seccion">
+      <h2>Interior</h2>
+      <p class="descripcion">Calzones, tops, calcetines</p>
+      <div class="galeria">
+        <img src="interior1.jpg" alt="Interior 1">
+        <img src="interior2.jpg" alt="Interior 2">
+      </div>
+    </div>
+
+  </div>
+   <!-- Botón para ir a la página principal -->
+   <div style="margin: 40px 0;">
+     <a href="paginaprincipal.html" style="
+      background-color: #8b6d5c;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: inline-block;
+    ">
+      Ir a la Página Principal
+    </a>
+  </div>
+
+  <footer>
+    <p>Todos los derechos reservados © 2025 - Equipo 6</p>
+  </footer>
+
+</body>
+</html>
+
+
+
